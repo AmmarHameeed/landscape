@@ -18304,3 +18304,11 @@ button:focus {
 .upward-transport-page .project-style-2 .entry-summary-wrap{
   width: 30%;
 }
+.sp-btn a{
+  padding: 0;
+}
+.sp-btn button{
+  padding: 11px 20px;
+    background: #79B637;
+    color: white;
+}
