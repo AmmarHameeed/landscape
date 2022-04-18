@@ -5587,9 +5587,9 @@ button {
   z-index: 9999;
 }
 
-.header--fixed .menu-item a {
+/* .header--fixed .menu-item a {
   padding: 17px 22px;
-}
+} */
 
 /* ==========================================================================
    #MENU
@@ -18305,4 +18305,19 @@ button:focus {
   padding: 11px 20px;
     background: #79B637;
     color: white;
+}
+.footer-link .chosen-single{
+  color: #ebebeb;
+}
+.footer-link .chosen-single:hover{
+  text-decoration: underline;
+}
+.tp-leftarrow,.tp-rightarrow {
+  display: none;
+}
+.entry-meta__item .chosen-single{
+  color: #555;
+}
+.entry-meta__item .chosen-single:hover{
+  text-decoration: underline;
 }
