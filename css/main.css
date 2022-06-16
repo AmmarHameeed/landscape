@@ -1032,6 +1032,11 @@ a:hover {
   margin-bottom: -6px;
   text-align: center;
 }
+.media-about .number.updated__heading {
+  font-size: 50px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
 
 .media-about .desc {
   color: #fff;
@@ -18279,7 +18284,10 @@ button:focus {
 .team__banner-container {
   margin-top: 100px;
 }
-
+.team__banner-container .title--sm a{
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
 .team__banner--text {
   margin-bottom: 15px;
   font-size: 12px;
